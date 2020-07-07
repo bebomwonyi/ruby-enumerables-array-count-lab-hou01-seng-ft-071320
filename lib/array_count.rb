@@ -3,7 +3,7 @@ def count_strings(array)
   a = 0
   count = 0
   while count < array.length do
-    if array[count].class == string
+    if array[count].class == String
       a += 1
     end
     count+=1
