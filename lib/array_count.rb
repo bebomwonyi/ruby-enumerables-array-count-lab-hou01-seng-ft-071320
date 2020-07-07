@@ -4,8 +4,9 @@ def count_strings(array)
   count = 0
   while count < array.length do
     if array[count].class == string
-      count += 1
+      a += 1
     end
+    count+=1
   end
 end
 
